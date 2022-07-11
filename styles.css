@@ -386,13 +386,13 @@ div.vector img{
 .skills .logos img{
     height: 110px;
     position: relative;
-    left: 100px;
+    left: 500px;
 }
 
 .skills .logo img{
     height: 110px;
     position: relative;
-    left: 100px;
+    left: 1000px;
 }
 
 
@@ -400,7 +400,7 @@ div.vector img{
     position: relative;
     bottom: 500px;
     width: 1300px;
-    right: 85px;
+    right: 35px;
 }
 
 
@@ -444,7 +444,11 @@ div.vector img{
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px)
+ 
+ 
+
+{
     nav{
         position: fixed;
         align-items: center;
@@ -724,8 +728,8 @@ div.vector img{
         font-size: 15px;
         width: 200px;
         text-align: center;
-        bottom: 10px;
-        left: 25px;
+        bottom: 15px;
+        left: 55px;
         font-weight: lighter;
         color: antiquewhite;
         font-family: 'Montserrat';
@@ -733,11 +737,11 @@ div.vector img{
     
     .container3{
         position: relative;
-        width: 250px;
-        height: 250px;
-        left: -28px;
+        width: 300px;
+        height: 300px;
+        
         margin: 20px auto;
-        top: 190px;
+        top: -775px;
         background: #373742;
         border-radius: 20px;
     
@@ -756,13 +760,13 @@ div.vector img{
     
     .container3 .project-link{
         position: relative;
-        left: 50px;
-        bottom: 1px;
+        left: 75px;
+        bottom: 20px;
         background-color: #E60B0B;
         color: #FFFFFF;
-        height: 35px;
+        height: 39px;
         align-items: center;
-        width: 150px;
+        width: 155px;
         text-align: center;
     }
     
@@ -777,8 +781,8 @@ div.vector img{
         font-size: 15px;
         width: 230px;
         text-align: center;
-        bottom: -10px;
-        left: 15px;
+        bottom: 5px;
+        left: 35px;
         font-weight: lighter;
         color: antiquewhite;
         font-family: 'Montserrat';
@@ -796,8 +800,8 @@ div.vector img{
         background-color: #E60B0B;
         color: #FFFFFF;
         font-size: 15px;
-        left: -185px;
-        top: 1000px;
+        left: 680px;
+        top: 1px;
     
       
     }
@@ -812,7 +816,7 @@ div.vector img{
         font-size: 50px;
         color: #F5AFB7;
         font-family: montserrat;
-        top: 150px;
+        bottom: 450px;
         right: -1px;
         font-weight: 10px;
         text-align: center;
@@ -824,53 +828,44 @@ div.vector img{
     .skills .logos{
         position: relative;
         top: 120px;
-        width: 300px;
-        right: 80px;  
+        width: 3000px;
+        right: 1000px;  
 
     }
     
     .skills .logos img{
-        height: 110px;
+        height: 100px;
+        bottom: 600px;
         position: relative;
-        left: 100px;
-        height: 80px;
+        left: 150px;
+        
     }
     
     .skills .logo img{
-        height: 110px;
+        height: 100px;
         position: relative;
         left: 100px;
-        top: 530px;
-        height: 80px;
-    }
-    
-  .skills .logos .react img{
-    top: 190px;
-    position: relative;
-    left: 50px;
-    height: 70px;
-  }
-    .skills .logo{
-        position: relative;
-        bottom: 500px;
-        width: 300px;
-        right: 75px;
+        bottom: 200px;
+        
     }
 
-.skills .logo .git img{
-    position: relative;
-    left: 150px;
-    top: 540px;
-}
     
+    .skills .logo{
+        position: relative;
+        bottom: 250px;
+        width: 3000px;
+        right: 960px;
+    }
+
+
     
     .contact{
         position: relative;
-        width: 300px;
+        width: 800px;
         height: 500px;
         left: 0px;
         margin: 20px auto;
-        top: 240px;
+        bottom: 800px;
         background: #373742;
         border-radius: 20px;
     }
@@ -881,7 +876,7 @@ div.vector img{
         color: aqua;
         font-size: 30px;
         top: 50px;
-        left: 25px;
+        left: 280px;
         font-weight: 100;
     
     }
@@ -891,7 +886,7 @@ div.vector img{
         font-size: 20px;
         position: relative;
         align-items: center;
-        left: 30px;
+        left: 280px;
         top: 60px;
         color: antiquewhite;
     }
@@ -899,8 +894,9 @@ div.vector img{
     .contact input{
         position: relative;
         top: 75px;
-        left: 30px;
+        left: 280px;
         width: 220px;
         height: 30px;
     }
     
+
